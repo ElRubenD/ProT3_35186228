@@ -1,0 +1,171 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header {
+    background-image: url(../img/funko-background-image-1-.jpg);
+    color: #fff;
+    text-align: center;
+    text-shadow:
+    2px  0px 0px black,
+    0px  2px 0px black,
+   -2px  0px 0px black,
+    0px -2px 0px black;
+    padding: 40px;
+}
+
+
+/* Estilos para el nav y enlaces de ul y li */
+
+.logo img{
+    max-width: 30%;
+}
+
+nav {
+    background-color: rgb(59, 59, 59);
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+
+nav ul li a:hover {
+    color: #B99470 !important;
+    cursor: pointer;
+}
+
+
+footer {
+    background-color: rgb(59, 59, 59); /* Color de fondo del footer */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.iconos-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* espacio entre los iconos */
+    margin-bottom: 10px;
+}
+
+/* .iconos-container img{
+    width: 30px; 
+    height: auto;
+    color: #9B6F5B;
+}
+*/
+
+.iconos-link {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(79, 79, 79);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.iconos-link:hover {
+    background-color: rgb(59, 59, 59); /* Color de fondo al pasar el ratón */
+    color: #fff; /* Color del icono al pasar el ratón */
+}
+
+/* Inicio de vista PRINCIPAL */
+
+h2{
+    text-align: center;
+    margin: 30px;
+}
+
+.carousel-inner img{
+    max-width: 100%;
+    width: 400px;
+}
+
+.carousel-caption{
+    background-color: rgb(59, 59, 59, 0.5);
+}
+
+.carousel-inner h4, h5, p {
+    color: #fff;
+}
+
+.prueba{
+    background: linear-gradient(to top,  rgb(79, 79, 79), 50%, rgb(59, 59, 59));
+    text-align: center;
+    padding: 0, 30px, 0, 30px;
+}
+
+/* Fin de vista PRINCIPAL */
+
+/* Comienzo de vista QUIENES SOMOS */
+.row{
+    text-align: center;
+}
+
+.centrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c1{
+    background-color: #514438;
+}
+
+.c2{
+    background-color: #755245;
+}
+
+.c3{
+    background-color: #9B6F5B;
+}
+/* Final de vista QUIENES SOMOS */
+
+/* Comienzo de vista ACERCA DE NOSOTROS */
+.ans{
+    color: white;
+}
+
+.an{
+    text-align: left;
+    color: #fff;
+}
+
+.an ul li{
+    margin-bottom: 10px;
+}
+/* Final de vista ACERCA DE NOSOTROS */
+
+.fp{
+    color: black;
+}
+
+.derecha{
+    padding: 15px;
+}
+
+.show{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
